@@ -43,7 +43,7 @@ We set out to predict the outcome of visa certification applications utilizing t
 - SVM
 - Logistic Regression
 
-**Step 3 - Model Evaluation**
+**Step 4 - Model Evaluation**
 -
 We used cross-validation to improve predictive accuracy of the model.
 

@@ -6,12 +6,15 @@
 **Contributers:**  Hussam Goda, Kashif Bashir, Yoshie Hara
 
 
-**Overview:** The goal of this project is to develop a machine learning model that predicts the case status of visa applications, the aims to to provide valuable insights for both applicants and immigration authorities, contributing to more efficient and informed decision-making.
+**Overview:** 
+-
+The goal of this project is to develop a machine learning model that predicts the case status of visa applications, the aims to to provide valuable insights for both applicants and immigration authorities, contributing to more efficient and informed decision-making.
 
 Data Sources: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
 
 **Methodology:**
+-
 - Exploratory Data Analysis with Tableau
 - Data Processing
 - Model Training and Selection
@@ -40,7 +43,7 @@ We set out to predict the outcome of visa certification applications utilizing t
 - SVM
 - Logistic Regression
 
-**Step 4 - Model Evaluation*
+**Step 3 - Model Evaluation**
 -
 We used cross-validation to improve predictive accuracy of the model.
 

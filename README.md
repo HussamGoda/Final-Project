@@ -28,14 +28,14 @@ This project also involved preforming an exploratory analysis on the dataset in 
 https://public.tableau.com/app/profile/yoshie.hara/viz/Project4Unfinished/Story1
 
 
-**Step 2 - Data Processing**
+**Step 2 - Data Processing:**
 -
 - Handling missing values
 - Encoding categorical variables
 - Splitting the dataset into training and testing sets
 
 
-**Step 3 - Model Training and Selection**
+**Step 3 - Model Training and Selection:**
 -
 We set out to predict the outcome of visa certification applications utilizing three different algorithms as below.
 
@@ -43,12 +43,12 @@ We set out to predict the outcome of visa certification applications utilizing t
 - SVM
 - Logistic Regression
 
-**Step 4 - Model Evaluation**
+**Step 4 - Model Evaluation:**
 -
 We used cross-validation to improve predictive accuracy of the model.
 
 
-**Step 5 - Model Deployment**
+**Step 5 - Model Deployment:**
 -
 
 

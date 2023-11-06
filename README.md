@@ -45,8 +45,8 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
   [Study of Continent of Origin]  
   - The most Application from Asia
-  - - Among different continents, Europe has the highest work visa certification rate (81%).
-    - - The lowest work visa certification rate belongs to South America (64%).  
+  - Among different continents, Europe has the highest work visa certification rate (81%).
+  - The lowest work visa certification rate belongs to South America (64%).  
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Continent.png" width="400" alt="Continent">
 
   [Study of Education]
@@ -56,14 +56,14 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
   [Study of Region of Employer]
   - It appears that the visa applications filed by the employers within the Midwest region have the highest probability (77%) of certification.
-  - - The employers located in the Northeast, West, and Island regions have lower chances (61%) of visa certification.  
+  - The employers located in the Northeast, West, and Island regions have lower chances (61%) of visa certification.  
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Region.png" width="400" alt="Region">
 
 
   
   [Study of Wages]
   - The data highlights a predominant salary range of 40k to 80k among visa applicants, and it shows higher incomes don't consistently result in higher approval rates.
-  - - Intriguingly, the analysis demonstrates a correlation between education levels and income expectations, with more highly educated candidates often seeking higher salaries.
+  - Intriguingly, the analysis demonstrates a correlation between education levels and income expectations, with more highly educated candidates often seeking higher salaries.
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage1.png" width="400" alt="Wage1">
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage2.png" width="400" alt="Wage2">
 

@@ -67,7 +67,7 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage1.png" width="400" alt="Wage1">
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage2.png" width="400" alt="Wage2">
 
-Data Preparation Machine Learning Model
+Data Preparation Machine Learning Model:
   
 * Check for missing values
 * Investigate if any unexpected data exist
@@ -87,7 +87,7 @@ Pair plots to check degree of linearity/no-linearity
 
 
 
-Create Logistic Regression Model
+Create Logistic Regression Model:
 
 
   Accuracy: 0.7074652777777778
@@ -107,7 +107,7 @@ Confusion Matrix:
  [[ 435  963]
  [ 385 2825]]
                                                       
-  Sunmary Logisctic regression
+  Summary Logistic Regression:
  
  Model's accuracy is approximately 70.75%, meaning it correctly predicted the class of roughly 70.75% of the total data points. The logistic regression model performs relatively well in predicting class 1 (case_status_certified) with high precision, recall, and F1-score. However, its performance in predicting class 0 (case_status_denied) is less impressive, with lower precision, recall, and F1-score. This suggests that the model is better at identifying certified cases but struggles with denied cases.
                           

@@ -15,10 +15,11 @@
 - Data Analysis and Visualization
   1.Tableau Visualizations
   2.General Observations
-- Machine Learning Modelling
+- Mach,ine Learning Modelling
   1.Data Preparation
   2.Logistic Regression
-  3.Artificial Neural Network
+  3. SVM Classifier
+  4.Artificial Neural Network
     a.Traditional Modelling
     b.Cross Validation Modelling
     c.Model Deployment
@@ -68,6 +69,7 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage2.png" width="400" alt="Wage2">
 
                         ******DATA PREPARATION Machine Learning Model**************
+
     
 * Data Loading: (Imported the dataset from 'easy_visa_cleaned_NoOutliers (2).csv)
 * Initial Data Exploration: (Removed the "case_id" and "unit_of_wage" columns to clean the dataset.)
@@ -85,23 +87,36 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 * Create Artificial Neural Network Model –(Traditional Modeling)
 * Create Artificail Neural Networl Model- ( cross validation Modelling)
 * Artificial Neural Network (Model Deployment)
-                               ** Create Logistic Regression Model**
+
+
+
+                                       ** Create Logistic Regression Model**
+
+
   Accuracy: 0.7074652777777778
+
+  
               precision    recall  f1-score   support
 
            0       0.53      0.31      0.39      1398
            1       0.75      0.88      0.81      3210
-
     accuracy                           0.71      4608
    macro avg       0.64      0.60      0.60      4608
 weighted avg       0.68      0.71      0.68      4608
 
+
 Confusion Matrix:
+
  [[ 435  963]
  [ 385 2825]]
- **Sunmary:**
+                                                      
+                                                       **Sunmary:**
+ 
  Model's accuracy is approximately 70.75%, meaning it correctly predicted the class of roughly 70.75% of the total data points. The logistic regression model performs relatively well in predicting class 1 (case_status_certified) with high precision, recall, and F1-score. However, its performance in predicting class 0 (case_status_denied) is less impressive, with lower precision, recall, and F1-score. This suggests that the model is better at identifying certified cases but struggles with denied cases.
+                          
+                          
                           **SVM Classifier Model******
+
 
 Accuracy: 0.6966145833333334
 Classification Report:
@@ -114,6 +129,8 @@ Classification Report:
    macro avg       0.60      0.50      0.42      4608
 weighted avg       0.64      0.70      0.58      4608
  
- **Sunmary:**
+                                                      
+                                                       **Sunmary:**
+                                                       
  SVM classifier Model appears to perform well in predicting class "1" (case_status_certified) with high precision and recall. However, its performance for class "0" (case_status_denied) is quite poor, with low precision and recall. It seems that the model struggles to correctly identify denied cases.
 

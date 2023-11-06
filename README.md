@@ -68,14 +68,19 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage2.png" width="400" alt="Wage2">
 
                         ******DATA PREPARATION Machine Learning Model**************
-  Check for missing values
-	Investigate if any unexpected data exist
-	Confirm data types, change any if required
-	Drop unnecessary columns
-	Remove outliers
-	Data Statistic (describe())
-	Encode categorical features and target
-	Split the dataset into training and testing sets
+* Check for missing values
+* Investigate if any unexpected data exist
+* Confirm data types, change any if required
+* Drop unnecessary columns
+* Remove outliers
+* Data Statistic (describe())
+* Encode categorical features and target
+* Split the dataset into training and testing sets
+
+       ** Pair plots to check degree of linearity/no-linearity**
+![image](https://github.com/HussamGoda/Final-Project/assets/135322159/97ae2386-68ac-41a5-b597-ccd4adc0a510)
+
+
 
 
 

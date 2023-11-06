@@ -40,7 +40,7 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
  
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Total.png" width="400" alt="Total Study">
 - The total study is an overarching analysis that provides a comprehensive view of the dataset.
- 
+  
 
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Continent.png" width="400" alt="Continent">
 - The most Application from Asia

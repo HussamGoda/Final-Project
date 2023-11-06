@@ -37,7 +37,8 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
 
 Observations
-![Total](Images/Tableau - Total.png)
+   
+   ![image](https://github.com/HussamGoda/Final-Project/Images/Tableau - Total.png)
 The total study is an overarching analysis that provides a comprehensive view of the dataset.
 
 ![Continent](https://github.com/HussamGoda/Final-Project/blob/main/Images/Continent.png)

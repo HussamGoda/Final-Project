@@ -36,8 +36,8 @@ This project also involved preforming an exploratory analysis on the dataset in 
 Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/Story1
 
 
-Observations
-Observations
+##Observations
+
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Total.png" width="400" alt="Total Study">
 The total study is an overarching analysis that provides a comprehensive view of the dataset.
 

@@ -37,7 +37,7 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
 
 Observations
-![Image](https://github.com/HussamGoda/Final-Project/blob/main/Images/Tableau-Total.png)
+![Image](https://github.com/HussamGoda/Final-Project/blob/main/Images/Total.png)
 The total study is an overarching analysis that provides a comprehensive view of the dataset.
 
 ![Continent](https://github.com/HussamGoda/Final-Project/blob/main/Images/Continent.png)
@@ -48,7 +48,7 @@ The lowest work visa certification rate belongs to South America (64%).
 ![Education](https://github.com/HussamGoda/Final-Project/blob/main/Images/Education.png)
 It is clear that the higher the education level of an applicants is, the more their chances of visa certification are.
 
-![Region](https://github.com/HussamGoda/Final-Project/blob/main/Images/Region1.png)
+![Region](https://github.com/HussamGoda/Final-Project/blob/main/Images/Region.png)
 It appears that the visa applications filed by the employers within the Midwest region have the highest probability (77%) of certification. 
 The employers located in the Northeast, West, and Island regions have lower chances (61%) of visa certification.
 

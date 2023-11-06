@@ -4,7 +4,7 @@
 **US Working Visa Applications Status**
 **Visualization and Prediction**
 -
-**Contributers:**  Hussam Goda, Kashif Bashir, Yoshie Hara**
+**Contributers:**  Hussam Goda, Kashif Bashir, Yoshie Hara
 
 ![Image](https://github.com/HussamGoda/Final-Project/blob/main/Images/Approve.png)
 

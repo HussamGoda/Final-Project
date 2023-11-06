@@ -6,7 +6,7 @@
 -
 **Contributers:**  Hussam Goda, Kashif Bashir, Yoshie Hara**
 
-![Image]((https://github.com/HussamGoda/Final-Project/blob/main/Images/Approve.png))
+![Image](Images/https://github.com/HussamGoda/Final-Project/blob/main/Images/Approve.png)
 
 
 **Agenda:** 
@@ -38,7 +38,6 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
 Observations
    
-   ![image](https://github.com/HussamGoda/Final-Project/Images/Tableau - Total.png)
 The total study is an overarching analysis that provides a comprehensive view of the dataset.
 
 ![Continent](https://github.com/HussamGoda/Final-Project/blob/main/Images/Continent.png)

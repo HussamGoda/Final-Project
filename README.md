@@ -1,10 +1,10 @@
 # Final-Project
 
 
-**Exploring US Working Visa Applications**
+**US Working Visa Applications StatusVisualization and Prediction**
 -
 **Contributers:**  Hussam Goda, Kashif Bashir, Yoshie Hara
-![Image](UPDATEHERE.png)
+![Image](Approve.png)
 
 **Agenda:** 
 -

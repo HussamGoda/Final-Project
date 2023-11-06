@@ -37,28 +37,30 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
 
 #Observations#
- 
+
+  [Total Study]  
+ - The total study is an overarching analysis that provides a comprehensive view of the dataset.
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Total.png" width="400" alt="Total Study">
-- The total study is an overarching analysis that provides a comprehensive view of the dataset.  
 
 
-  
-<img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Continent.png" width="400" alt="Continent">
+  [Study of Continent of Origin]
 - The most Application from Asia   
 - Among different continents, Europe has the highest work visa certification rate (81%).  
 - The lowest work visa certification rate belongs to South America (64%).  
+<img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Continent.png" width="400" alt="Continent">
 
-  
-<img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Education.png" width="400" alt="Education">  
+  [Study of Education]  
 - It is clear that the higher the education level of an applicants is, the more their chances of visa certification are.  
+<img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Education.png" width="400" alt="Education">  
 
-  
+
+  [Study of Region of Employer]  
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Region.png" width="400" alt="Region">
 - It appears that the visa applications filed by the employers within the Midwest region have the highest probability (77%) of certification.
 - The employers located in the Northeast, West, and Island regions have lower chances (61%) of visa certification.  
 
   
-  
+  [Study of Wages]  
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage1.png" width="400" alt="Wage1">
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage2.png" width="400" alt="Wage2">
 - The data highlights a predominant salary range of 40k to 80k among visa applicants, and it shows higher incomes don't consistently result in higher approval rates.  

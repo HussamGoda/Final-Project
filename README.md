@@ -55,28 +55,3 @@ The data highlights a predominant salary range of 40k to 80k among visa applican
 Intriguingly, the analysis demonstrates a correlation between education levels and income expectations, with more highly educated candidates often seeking higher salaries. 
 
 
-**Step 2 - Data Processing:**
--
-- Handling missing values
-- Encoding categorical variables
-- Splitting the dataset into training and testing sets
-
-
-**Step 3 - Model Training and Selection:**
--
-We set out to predict the outcome of visa certification applications utilizing three different algorithms as below.
-
-- Neural Network
-- Logistic Regression
-
-**Step 4 - Model Evaluation:**
--
-We used cross-validation to improve predictive accuracy of the model.
-
-
-**Step 5 - Model Deployment:**
--
-
-
-**Findings**
--

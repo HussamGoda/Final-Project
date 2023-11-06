@@ -4,35 +4,55 @@
 **Exploring US Working Visa Applications**
 -
 **Contributers:**  Hussam Goda, Kashif Bashir, Yoshie Hara
+![Image](UPDATEHERE.png)
 
-
-**Overview:** 
+**Agenda:** 
 -
-The goal of this project is to develop a machine learning model that predicts the case status of visa applications, the aims to to provide valuable insights for both applicants and immigration authorities, contributing to more efficient and informed decision-making.
+- Introduction and Overview
+- Data Analysis and Visualization
+  1.Tableau Visualizations
+  2.General Observations
+- Machine Learning Modelling
+  1.Data Preparation
+  2.Logistic Regression
+  3.Artificial Neural Network
+    a.Traditional Modelling
+    b.Cross Validation Modelling
+    c.Model Deployment
+- Conclusions
 
-Data Sources: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
-
-
-**Methodology:**
+**Introduction and Overview:**
 -
-- Exploratory Data Analysis with Tableau
-- Data Processing
-- Model Training and Selection
-- Model Evaluation
-- Model Deployment
+- The goal of this project is to develop a machine learning model that predicts the case status of visa applications, the aims to to provide valuable insights for both applicants and immigration authorities, contributing to more efficient and informed decision-making.
+- Data Sources: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
 
-**Step 1: ETL and Preprocessing:**
+**Step 1: Data Analysis and Visualization:**
 -
 This project also involved preforming an exploratory analysis on the dataset in order to gain a better understanding of general themes associated with US visa approvals. 
-https://public.tableau.com/app/profile/yoshie.hara/viz/Project4Unfinished/Story1
+Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/Story1
 
-- General Observation as below:
-- Asia is the leading source of visa applications.
-- Europe boasts the highest certification rate at 81%. Meanwhile, South America has the lowest certification rate at 64%.
-- Doctorate holders having an 89% success rate, compared to high school degree holders only records34%. We can tell that Education level strongly influences certification.
-- Midwest employers have a high certification rate of 77%.
-- Salary expectations show a common range of 40k to 80k, and higher income doesn't guarantee the higher chance of approval.
+
+Observations
+![TotalStudy](Tableau - Total.png)
+The total study is an overarching analysis that provides a comprehensive view of the dataset.
+
+![Continent](Tableau - Continent.png)
+The most Application from Asia
+Among different continents, Europe has the highest work visa certification rate (81%).
+The lowest work visa certification rate belongs to South America (64%).
+
+![Education](Tableau - Education.png)
+It is clear that the higher the education level of an applicants is, the more their chances of visa certification are.
+
+![Region](Tableau - Resion.png)
+It appears that the visa applications filed by the employers within the Midwest region have the highest probability (77%) of certification. 
+The employers located in the Northeast, West, and Island regions have lower chances (61%) of visa certification.
+
+![Wage1](Tableau - Wage1.png)
+![Wage2](Tableau - Wage2.png)
+The data highlights a predominant salary range of 40k to 80k among visa applicants, and it shows higher incomes don't consistently result in higher approval rates. 
+Intriguingly, the analysis demonstrates a correlation between education levels and income expectations, with more highly educated candidates often seeking higher salaries. 
 
 
 **Step 2 - Data Processing:**

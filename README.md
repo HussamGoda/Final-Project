@@ -160,11 +160,41 @@ The model's accuracy is approximately 70.75%, meaning it correctly predicted the
 
 ****Neural Network - Single Model****
 -
+the dataset was split into two datasets, training and testing. Both datasets were standardized and transformed.
+Following a number of trials the following neural network structure was used.
+- An input layer (24 neurons),
+- First hidden layer with 80 neurons
+- Second hidden layer with 50 neurons
+- Activation function set as sigmoid in each layer for all neurons.
+- maximum of 200 epochs
+
+following the training process, the network was tested using the testing dataset giving the following Classification Report
+
+![image](https://github.com/HussamGoda/Final-Project/assets/134576485/6636aacd-8fc1-4051-8ce4-67f696d6a972)
+
+The model seems able to predict the case status "Certified" (presented by 1) better than "Denied" (presented by 0). Precision and recall values for "Certified" are 78% and 85% respectively. The model accuracy is 0.73. The performance of the model appears to be similar to the logistic regression model shown above. Since the logistic regression model is simpler than the neural network model, it makes sense to deploy the logistic regression model. However, before approving that, the decision was made to, first, investigate whether training the neural network model using Cross Validation would improve its performance   
 
 ****Neural Network - Cross Validation Model****
 -
+Kfold (from sklearn) was used to apply cross-validation. Cross-validation allows the neural network to be trained using multiple different training sets, and be tested using different testing sets. This would allow to network to see different training sets with different collections. This would allow the network to learn more about the hidden features (or hidden themes) that may exist in the training sets. Cross-validation also increases the chances of preventing over-fitting
 
-****Neural Network - Cross Validation Model Deplyment****
+A similar network architecture as the one explained before was used for the Cross-Validation model. Kfold was set to 10.
+
+It appears that The accuracy has improved by about 6-7% to an average of 78%. The maximum accuracy for all 10 cases reaches a value of about 84%. Maximum precision and recall for "Certified" cases are 88% and 89% respectively. For "Denied" cases the maximum precision is 73% and the maximum recall is 72%. These values are higher than what has been obtained from the logistic regression model and single neural network model performed above. Like the other two models, The Cross-validation model is more reliable in predicting "Certified" cases than "Denied" Ones. The reason for that is, maybe, the majority of the dataset has certified cases than denied cases: 12840 for certified (about 70% of the dataset) and 5590 for denied (about 30% of the dataset).
+
+Classification Report for the run (out of the 10 runs) with the lowest performance
+
+![image](https://github.com/HussamGoda/Final-Project/assets/134576485/6b7140d7-335f-4a20-ad6d-3b48426cbfdd)
+
+Classification Report for the run (out of the 10 runs) with the highest performance
+
+![image](https://github.com/HussamGoda/Final-Project/assets/134576485/e0f4d3fb-9706-4a4c-b369-cddf07284f2d)
+
+
+It was decided to deploy the neural network model trained using Cross-validation
+
+
+****Neural Network - Cross Validation Model Deployment****
 -
 
 

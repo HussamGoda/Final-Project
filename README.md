@@ -97,11 +97,8 @@ Pair plots to check the degree of linearity/no-linearity
 ![image](https://github.com/HussamGoda/Final-Project/assets/135322159/97ae2386-68ac-41a5-b597-ccd4adc0a510)
 
 
-
-
-
-
-Create Logistic Regression Model:
+****Logistic Regression Model****
+-
 
 
   Accuracy: 0.7074652777777778
@@ -121,9 +118,7 @@ Confusion Matrix:
  [[ 435  963]
  [ 385 2825]]
                                                       
-  Summary Logistic Regression:
- 
- The model's accuracy is approximately 70.75%, meaning it correctly predicted the class of roughly 70.75% of the total data points. The logistic regression model performs relatively well in predicting class 1 (case_status_certified) with high precision, recall, and F1-score. However, its performance in predicting class 0 (case_status_denied) is less impressive, with lower precision, recall, and F1-score. This suggests that the model is better at identifying certified cases but struggles with denied cases.
+The model's accuracy is approximately 70.75%, meaning it correctly predicted the class of roughly 70.75% of the total data points. The logistic regression model performs relatively well in predicting class 1 (case_status_certified) with high precision, recall, and F1-score. However, its performance in predicting class 0 (case_status_denied) is less impressive, with lower precision, recall, and F1-score. This suggests that the model is better at identifying certified cases but struggles with denied cases.
                           
                           
                          

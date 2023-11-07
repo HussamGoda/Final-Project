@@ -244,25 +244,21 @@ Once the user clicks "Predict Visa Status", the code will go through all runs pe
 
 **Conclusion**
 -
-*Logistic Regression Model:*
-Accuracy: 70%
+*Logistic Regression Model:*  
+Accuracy: 70%  
 Precision: "Certified": 75%, "Denied": 53%  
+  
 In contrast, for "Denied" cases, the precision was 53%, indicating that the model's performance was relatively weaker in correctly identifying denied cases.
   
-
-*Neural Network Model:*
-Accuracy: Single Model: 73%, Cross Validation Model: 78-79%
-Precision:
-Single Model:"Certified": 78%, "Denied": 57%
+  
+*Neural Network Model:*  
+Accuracy: Single Model: 73%, Cross Validation Model: 78-79%  
+Precision:  
+Single Model:"Certified": 78%, "Denied": 57%  
 Cross Validation Model: "Certified": 82%, "Denied": 65%  
-
-Observations:
-The neural network model outperformed the logistic regression model with an accuracy of 73% for a single model and 78-79% for the cross-validation model.
-In the single model, the precision for "Certified" cases was 78%, indicating that the model correctly identified 78% of the certified cases among its predictions.
-For "Denied" cases in the single model, precision was 57%, showing that the model's performance was relatively lower in correctly identifying denied cases.
+The neural network model outperformed the logistic regression model with an accuracy of 73% for a single model and 78-79% for the cross-validation model.  
 In the cross-validation model, precision for "Certified" cases improved to 82%, and precision for "Denied" cases also increased to 65%, indicating better overall performance.
-Conclusion:
-
+  
 All models performed better in predicting "Certified" status, with higher accuracy and precision.
 The neural network model, especially the cross-validation model, showed the best performance with an accuracy of 78-79% and improved precision for both "Certified" and "Denied" cases.
 Based on these results, we have integrated the cross-validated neural network model into our webpage. This enables users to effortlessly forecast the outcome of their visa application.

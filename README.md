@@ -42,6 +42,7 @@ If you require to run any code, please maintain the files' relative locations as
 # Final Report
 
 
+
 **Introduction and Overview:**
 -
 In this project, a dataset of US working visa status is considered. The dataset contains 25480 records and a total of 12 columns, summarized as follows.

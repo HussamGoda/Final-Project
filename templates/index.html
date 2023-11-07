@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Visa Status</title>
+    <style>
+        /* create continer for dropdown lists */
+        .dropdown-container { display: flex; flex-wrap: wrap; }
+        .dropdown { margin-right: 20px; margin-bottom: 10px; }
+        .dropdown select { width: 150px; } /* width size */
+    </style>
+</head>
+
+<body style="background: #000;">
+    <div class="start">
+        <h1 style="color: red;">Visa Status Predictor</h1><br><br><br>
+        <p style="color: red;">Enter Required Parameters Below</p>
+        <form action="{{ url_for('predict')}}" method="post">
+
+            <!-- input numerical features by user -->
+            <input type="number" name="Company Size" placeholder="Company Size" required="required" /><br><br>
+            <input type="number" name="Year Compnay Established" placeholder="Year Company Established" required="required" /><br><br>
+            <input type="number" name="Prevailing Wage" placeholder="Prevailing Wage" required="required" /><br><br><br><br><br><br><br>
+            <p style="color: red;">Selecte Required Parameters From The Lists Below</p>    
+            
+            <div class="dropdown-container">
+                <!-- create dropdown list for the regions, then create hidden variable for each region assign value of 0 for all hidden variables-->
+                <div class="dropdown">
+                    <label for="select_option_r">Select Region:</label>
+                    <select id="select_option_r" name="Selected Region">
+                        <option value="Select Region">Select Region</option>
+                        <option value="Island">Island</option>
+                        <option value="Midwest">Midwest</option>
+                        <option value="Northeast">Northeast</option>
+                        <option value="South">South</option>
+                        <option value="West">West</option>
+                    </select>
+                </div>
+              
+                <input type="hidden" name="region_of_employment_Island" value="0">
+                <input type="hidden" name="region_of_employment_Midwest" value="0">
+                <input type="hidden" name="region_of_employment_Northeast" value="0">
+                <input type="hidden" name="region_of_employment_South" value="0">
+                <input type="hidden" name="region_of_employment_West" value="0">
+                
+                <!-- create dropdown list for the continents, then create hidden variable for each continent assign value of 0 for all hidden variables -->
+                <div class="dropdown">
+                    <label for="select_option_c">Select Continent:</label>
+                    <select id="select_option_c" name="Selected Continent">
+                        <option value="Select Continent">Select Continent</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="North America">North America</option>
+                        <option value="South America">South America</option>
+                        <option value="Oceania">Oceania</option>
+                    </select>
+                </div>
+                    
+                    <input type="hidden" name="Africa" value="0">
+                    <input type="hidden" name="Asia" value="0">
+                    <input type="hidden" name="Europe" value="0">
+                    <input type="hidden" name="North America" value="0">
+                    <input type="hidden" name="South America" value="0">
+                    <input type="hidden" name="Oceania" value="0">
+
+                    <!-- create dropdown list for the education level, then create hidden variable for each education level, assign value of 0 for all hidden variables -->
+                    <div class="dropdown">
+                    <label for="select_option_e">Select Education Level:</label>
+                    <select id="select_option_e" name="Selected Education">
+                        <option value="Select Education Level">Select Education Level</option>
+                        <option value="HighSchool">High School</option>
+                        <option value="Bachelor">Bachelor's</option>
+                        <option value="Master">Master's</option>
+                        <option value="Doctorate">Doctorate</option>
+                    </select>
+                </div>
+                    
+                    <input type="hidden" name="HighSchool" value="0">
+                    <input type="hidden" name="Bachelor" value="0">
+                    <input type="hidden" name="Master" value="0">
+                    <input type="hidden" name="Doctorate" value="0">
+
+                    <!-- create dropdown list for require experiance (yea or no), then create hidden variables for the "yes" and "no", assign value of 0 for all hidden variables -->
+                    <div class="dropdown">
+                    <label for="select_option_je">Select Experience:</label>
+                    <select id="select_option_je" name="Selected Experience">
+                        <option value="Require Experience">Require Experience</option>
+                        <option value="requireexpY">Y</option>
+                        <option value="requireexpN">N</option>
+                    </select>
+                </div>
+
+                    <input type="hidden" name="requireexpY" value="0">
+                    <input type="hidden" name="requireexpN" value="0">
+
+                <!-- create dropdown list for require training (yea or no), then create hidden variables for the "yes" and "no", assign value of 0 for all hidden variables -->    
+                <div class="dropdown">
+                    <label for="select_option_te">Select Training:</label>
+                    <select id="select_option_te" name="Selected Training">
+                        <option value="Require Training">Require Training</option>
+                        <option value="requiertrainingY">Y</option>
+                        <option value="requiertrainingN">N</option>
+                    </select>
+                </div>
+
+                <input type="hidden" name="requiertrainingY" value="0">
+                <input type="hidden" name="requiertrainingN" value="0">
+
+                <!-- create dropdown list for fulltime position (yea or no), then create hidden variables for the "yes" and "no", assign value of 0 for all hidden variables -->  
+                <div class="dropdown">
+                    <label for="select_option_p">Select Position:</label>
+                    <select id="select_option_p" name="Selected Position">
+                        <option value="Full Time Position">Full Time Position</option>
+                        <option value="fulltimepositionY">Y</option>
+                        <option value="fulltimepositionN">N</option>
+                    </select>
+                </div>
+
+                <input type="hidden" name="fulltimepositionY" value="0">
+                <input type="hidden" name="fulltimepositionN" value="0">
+
+                
+                <!-- The code from here to the end is about adding an EventListener to each dropdown list, assgin value of 1 to the options the user selects from each list
+                     and 0 to other options...five lists in total -->  
+                <script>
+                document.getElementById("select_option_r").addEventListener("change", function() {
+                    var selectedRegion = this.value;
+                    
+                    // Reset all region variables to 0
+                    var regionVariables = ["Island", "Midwest", "Northeast", "South", "West"];
+                    for (var i = 0; i < regionVariables.length; i++) {
+                    document.getElementsByName("region_of_employment_" + regionVariables[i])[0].setAttribute('value', '0');
+                    }
+                    
+                    // Set the selected region variable to 1
+                    if (selectedRegion !== "Select Region") {
+                    document.getElementsByName("region_of_employment_" + selectedRegion)[0].setAttribute('value', '1');
+                    }
+                });
+                </script>
+
+                <script>
+
+                    document.getElementById("select_option_c").addEventListener("change", function() {
+                        var selectedContient = this.value;
+                        
+                 
+                        var contientVariables = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania"];
+                        for (var i = 0; i < contientVariables.length; i++) {
+                            document.getElementsByName(contientVariables[i])[0].setAttribute('value', '0');
+                        }
+                        
+                        // Set the selected region variable to 1
+                        if (selectedContient !== "Select Continent") {
+                            var selectedcontinentVariable = selectedContient;
+                            document.getElementsByName(selectedcontinentVariable)[0].setAttribute('value', '1');
+                        }
+                    });
+                </script>
+                
+                <script>
+
+                    document.getElementById("select_option_e").addEventListener("change", function() {
+                        var selectedEducation = this.value;
+                        
+                 
+                        var educationVariables = ["HighSchool", "Bachelor", "Master", "Doctorate"];
+                        for (var i = 0; i < educationVariables.length; i++) {
+                            document.getElementsByName(educationVariables[i])[0].setAttribute('value', '0');
+                        }
+                        
+                        // Set the selected region variable to 1
+                        if (selectedEducation !== "Select Education Level") {
+                            var selectededucationVariable = selectedEducation;
+                            document.getElementsByName(selectededucationVariable)[0].setAttribute('value', '1');
+                        }
+                    });
+                </script>
+
+                <script>
+
+                    document.getElementById("select_option_je").addEventListener("change", function() {
+                        var selectedExp = this.value;
+                        
+                
+                        var expVariables = ["requireexpY", "requireexpN"];
+                        for (var i = 0; i < expVariables.length; i++) {
+                            document.getElementsByName(expVariables[i])[0].setAttribute('value', '0');
+                        }
+                        
+                        // Set the selected region variable to 1
+                        if (selectedExp !== "Require Experience") {
+                            var selectedexpVariable = selectedExp;
+                            document.getElementsByName(selectedexpVariable)[0].setAttribute('value', '1');
+                        }
+                    });
+                </script>
+
+                <script>
+
+                    document.getElementById("select_option_te").addEventListener("change", function() {
+                        var selectedtraining = this.value;
+                        
+
+                        var trainingVariables = ["requiertrainingY", "requiertrainingN"];
+                        for (var i = 0; i < trainingVariables.length; i++) {
+                            document.getElementsByName(trainingVariables[i])[0].setAttribute('value', '0');
+                        }
+                        
+                        // Set the selected region variable to 1
+                        if (selectedtraining !== "Require Trainingpython visa") {
+                            var selectedtrainingVariable = selectedtraining;
+                            document.getElementsByName(selectedtrainingVariable)[0].setAttribute('value', '1');
+                        }
+                    });
+                </script>
+
+                <script>
+
+                    document.getElementById("select_option_p").addEventListener("change", function() {
+                        var selectedposition = this.value;
+                        
+
+                        var positionVariables = ["fulltimepositionY", "fulltimepositionN"];
+                        for (var i = 0; i < positionVariables.length; i++) {
+                            document.getElementsByName(positionVariables[i])[0].setAttribute('value', '0');
+                        }
+                        
+                        // Set the selected region variable to 1
+                        if (selectedposition !== "Full Time Position") {
+                            var selectedpositionVariable = selectedposition;
+                            document.getElementsByName(selectedpositionVariable)[0].setAttribute('value', '1');
+                        }
+                    });
+                </script>
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict Visa Status</button> 
+
+        </form>
+
+        <br>
+        <br>
+        <br>
+        <h2 style="color: red;">{{ prediction_text }}</h2>
+    </div>
+</body>
+</html>

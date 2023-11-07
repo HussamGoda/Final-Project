@@ -30,7 +30,9 @@ files and folders for Deployment
 - "Visa_xv_model.py": code for defining Python flask, performing calculations, and returning output to the front end.
 
 Final Presentation
-- Presentation-Group8-Machine Learning.ppt
+- "Presentation_Group8_Machine_Learning.pptx": final presentation slides.
+
+The final Report is included here in the README
 
 If you require to run any code, please maintain the files' relative locations as shown in the Repo. 
 

@@ -78,7 +78,7 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
 
   [Study of Region of Employer]
-  - It appears that the visa applications filed by the employers within the Midwest region have the highest probability (77%) of certification.
+  - It appears that the visa applications filed by employers within the Midwest region have the highest probability (77%) of certification.
   - The employers located in the Northeast, West, and Island regions have lower chances (61%) of visa certification.  
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Region.png" width="400" alt="Region">
 

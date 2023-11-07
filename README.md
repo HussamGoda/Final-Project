@@ -25,9 +25,11 @@ In this project, a dataset of US working visa status is considered. The dataset 
 - Full-Time Position: whether the position is full-time or not (categorical feature)
 - Case status: whether the case is certified or denied (categorical target)
 
+
 The goal of this project is two-fold.
 - Understand the visa award program and factors that may influence the final decision, using data analysis and visualizations in Tableau.
 - Develop machine learning models that predict the status of visa application results, with the aim to provide valuable insights for both applicants and immigration authorities, contributing to more efficient and informed decision-making
+
 
 Data Source: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 

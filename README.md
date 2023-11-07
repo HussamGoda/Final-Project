@@ -92,9 +92,6 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
 **Machine Learning Models**
 -
-
-
-
 Pair plots to check the degree of linearity/no-linearity
 
 ![image](https://github.com/HussamGoda/Final-Project/assets/135322159/97ae2386-68ac-41a5-b597-ccd4adc0a510)

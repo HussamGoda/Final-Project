@@ -247,7 +247,6 @@ Once the user clicks "Predict Visa Status", the code will go through all runs pe
 *Logistic Regression Model:*  
 Accuracy: 70%  
 Precision: "Certified": 75%, "Denied": 53%  
-  
 In contrast, for "Denied" cases, the precision was 53%, indicating that the model's performance was relatively weaker in correctly identifying denied cases.
   
   

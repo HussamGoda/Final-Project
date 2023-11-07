@@ -29,6 +29,9 @@ files and folders for Deployment
 - Folder “templates”: contains the file “index.html”
 - "Visa_xv_model.py": code for defining Python flask, performing calculations, and returning output to the front end.
 
+Final Presentation
+- Presentation-Group8-Machine Learning.ppt
+
 If you require to run any code, please maintain the files' relative locations as shown in the Repo. 
 
 

@@ -51,9 +51,11 @@ Before starting the analysis, Several steps were taken to ensure the data was cl
 It should be noted that in this study only records that show “unit of wage” as year are used in the study. Final number of records is 18430.
 
 
-**Step 1: Data Analysis and Visualization:**
+**Data Analysis and Visualization:**
 -
-This project also involved preforming an exploratory analysis on the dataset in order to gain a better understanding of general themes associated with US visa approvals. 
+As indicated earlier, the project involves performing an exploratory analysis of the dataset in order to gain a better understanding of general themes associated with US visa approvals. 
+Before starting the analysis, python code was written to add approximate values of latitude and longitude for each region in the US. This would facilitate the use of the US map for some visualizations.
+
 Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/Story1
 
 

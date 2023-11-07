@@ -92,7 +92,9 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 
 **Machine Learning Models**
 -
-Pair plots to check the degree of linearity/no-linearity
+In this part of the report, Machine Learning modeling is summarised. 
+Initially, Pair Plots were created to investigate relationships between features and understand the degree of linearity/no-linearity that may exist.
+The plot below shows a total of nine sub-plots, six of which are scatter plots. such plots show the relationship between two numerical features for each case status (orange circles for "Certified" status and blue circles for "Denied" status)  
 
 ![image](https://github.com/HussamGoda/Final-Project/assets/135322159/97ae2386-68ac-41a5-b597-ccd4adc0a510)
 

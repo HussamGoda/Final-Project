@@ -173,7 +173,14 @@ following the training process, the network was tested using the testing dataset
 
 ![image](https://github.com/HussamGoda/Final-Project/assets/134576485/6636aacd-8fc1-4051-8ce4-67f696d6a972)
 
-The model seems able to predict the case status "Certified" (presented by 1) better than "Denied" (presented by 0). Precision and recall values for "Certified" are 78% and 85% respectively. The model accuracy is 0.73. The performance of the model appears to be similar to the logistic regression model shown above. Since the logistic regression model is simpler than the neural network model, it makes sense to deploy the logistic regression model. However, before approving that, the decision was made to, first, investigate whether training the neural network model using Cross Validation would improve its performance   
+The model seems able to predict the case status "Certified" (presented by 1) better than "Denied" (presented by 0). Precision and recall values for "Certified" are 78% and 85% respectively. The model accuracy is 0.73. The performance of the model appears to be similar to the logistic regression model shown above. Since the logistic regression model is simpler than the neural network model, it makes sense to deploy the logistic regression model. However, before approving that, the decision was made to, first, investigate whether training the neural network model using Cross Validation would improve its performance.
+
+Before starting the Cross-validation modeling, it might be a good idea to have a quick look at the input features relative importance in the neural network model. One easy way of doing such an activity is by collecting the weight values for each input feature and summing them (weights going into the first hidden layer). Input features with higher weight may be considered more important.
+
+![image](https://github.com/HussamGoda/Final-Project/assets/134576485/15e54271-b47c-4f67-a152-2ea11732eb0e)
+
+
+
 
 ****Neural Network - Cross Validation Model****
 -

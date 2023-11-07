@@ -82,7 +82,7 @@ It should be noted that in this study only records that show “unit of wage” 
 As indicated earlier, the project involves performing an exploratory analysis of the dataset in order to gain a better understanding of general themes associated with US visa approvals. 
 Before starting the analysis, python code was written to add approximate values of latitude and longitude for each region in the US. This would facilitate the use of the US map for some visualizations.
 
-Tableau Link: [https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/Story1]
+Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4_Group8US_Visa/Story1?publish=yes
 
 
 #Observations#

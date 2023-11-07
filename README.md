@@ -90,16 +90,10 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage1.png" width="400" alt="Wage1">
 <img src="https://github.com/HussamGoda/Final-Project/blob/main/Images/Wage2.png" width="400" alt="Wage2">
 
-Data Preparation Machine Learning Model:
-  
-* Check for missing values
-* Investigate if any unexpected data exist
-* Confirm data types, change any if required
-* Drop unnecessary columns
-* Remove outliers
-* Data Statistic (describe())
-* Encode categorical features and target
-* Split the dataset into training and testing sets
+**Machine Learning Models**
+-
+
+
 
 Pair plots to check the degree of linearity/no-linearity
 

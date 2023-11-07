@@ -123,6 +123,10 @@ Confusion Matrix:
  [ 385 2825]]
                                                       
 The model's accuracy is approximately 70.75%, meaning it correctly predicted the class of roughly 70.75% of the total data points. The logistic regression model performs relatively well in predicting class 1 (case_status_certified) with high precision, recall, and F1-score. However, its performance in predicting class 0 (case_status_denied) is less impressive, with lower precision, recall, and F1-score. This suggests that the model is better at identifying certified cases but struggles with denied cases.
-                          
-                          
+
+
+****Neural Network - Single Model****
+
+
+****Neural Network - Cross Validation Model****
                          

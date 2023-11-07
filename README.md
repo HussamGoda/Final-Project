@@ -130,3 +130,8 @@ The model's accuracy is approximately 70.75%, meaning it correctly predicted the
 
 ****Neural Network - Cross Validation Model****
 -
+
+****Neural Network - Cross Validation Model Deplyment****
+-
+
+

@@ -9,25 +9,27 @@
 ![Image](https://github.com/HussamGoda/Final-Project/blob/main/Images/Approve.png)
 
 
-**Agenda:** 
--
-- Introduction and Overview
-- Data Analysis and Visualization
-  1.Tableau Visualizations
-  2.General Observations
-- Machine Learning Modelling
-  1.Data Preparation
-  2.Logistic Regression
-  3.Artificial Neural Network
-    a.Traditional Modelling
-    b.Cross Validation Modelling
-    c.Model Deployment
-- Conclusions
-
 **Introduction and Overview:**
--
-- The goal of this project is to develop a machine learning model that predicts the case status of visa applications, the aim to to provide valuable insights for both applicants and immigration authorities, contributing to more efficient and informed decision-making.
-- Data Sources: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
+In this project, a dataset of US working visa status is considered. The dataset contains 25480 records and a total of 12 columns, summarized as follows.
+- Case id: unique ID for each application,
+- Continent: Applicant location (categorical feature),
+- Education of Employee: applicant level of education (categorical feature),
+- Job Experience: whether the job requires prior experience (categorical feature),
+- Job Training: whether the job involves initial training (categorical feature),
+- Number of Employees: company size (numerical feature)
+- Year of Establishment: the year the company was established (numerical feature)
+- Region of Employment: US region where the company is located (categorical feature),
+- Prevailing Wage: salary on offer (numerical feature)
+- Unit of wage: yearly, weekly, monthly (categorical feature)
+- Full-Time Position: whether the position is full time or not (categorical feature)
+- Case status: whether the case is certified or denied (categorical target)
+
+The goal of this project is two-fold.
+- Understand the visa award program and factors that may influence the final decision, using data analysis and visualizations in Tableau.
+- Develop machine learning models that predict the status of visa application results, with the aim to provide valuable insights for both applicants and immigration authorities, contributing to more efficient and informed decision-making
+
+Data Source: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
+
 
 
 **Step 1: Data Analysis and Visualization:**

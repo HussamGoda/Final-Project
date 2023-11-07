@@ -34,6 +34,21 @@ The goal of this project is two-fold.
 Data Source: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
 
+**Data Preparation**
+-
+Before starting the analysis, Several steps were taken to ensure the data was cleaned and processed.
+•	Check and drop any missing values
+•	Investigate if any unexpected data exist, for example in the number of employees column, some values were reported as negative values. It was assumed that this happened by mistake. The values were then converted to positive values
+•	Confirm data types, and change any if required
+•	Drop unnecessary columns such as case_id column
+•	Remove outliers: using quantile (0.25, 0.5, 0.75), lower bond, and upper bond to remove outliers from the original data
+•	Data Statistic (describe())
+•	Encode categorical features and target (as indicated above)
+•	Split the dataset into training and testing sets for machine learning modeling.
+
+
+It should be noted that in this study only records that show “unit of wage” as year are used in the study. Final number of records is 18430.
+
 
 **Step 1: Data Analysis and Visualization:**
 -

@@ -97,9 +97,42 @@ In this part of the report, Machine Learning modeling is summarised.
 Initially, Pair Plots were created to investigate relationships between features and understand the degree of linearity/no-linearity that may exist.
 The plot below shows a total of 9 sub-plots, 6 of which are scatter plots. such plots show the relationship between two numerical features for each case status (orange circles for "Certified" status and blue circles for "Denied" status). Looking at the plots, one may conclude that non-linearity dictates relationships between the input features.
 
-The remaining plots (3 plots) show the distribution of each numerical feature for each visa status. The "prevailing wage" appears to be normally distributed (relatively speaking). The distributions of "no_of_employees" and "yr_of_estab" are skewed to the left and the right respectively.     
+The remaining plots (3 plots) show the distribution of each numerical feature for each visa status. The "prevailing wage" appears to be normally distributed (relatively speaking). The distributions of "no_of_employees" and "yr_of_estab" are skewed to the left and the right respectively.
+
+
 
 ![image](https://github.com/HussamGoda/Final-Project/assets/135322159/97ae2386-68ac-41a5-b597-ccd4adc0a510)
+
+Machine Learning models use a total of 24 Input features (following transforming categorical features numerical features containing only 0 and 1)
+- no_of_employees
+- yr_of_estab
+- prevailing_wage
+- continent_Africa
+- continent_Asia
+- continent_Europe
+- continent_North America
+- continent_Oceania
+- continent_South America
+- education_of_employee_Bachelor's
+- education_of_employee_Doctorate
+- education_of_employee_High School
+- education_of_employee_Master's
+- has_job_experience_N
+- has_job_experience_Y
+- requires_job_training_N
+- requires_job_training_Y
+- region_of_employment_Island
+- region_of_employment_Midwest
+- region_of_employment_Northeast
+- region_of_employment_South
+- region_of_employment_West
+- full_time_position_N
+- full_time_position_Y
+
+The original output target is case_status. Like other categorical columns, this column was split into case_status_Certified and case_status_denied. Only one column is sufficient as it presents both statuses; "Certified" and Denied".
+
+Output target:
+- case_status_Certified
 
 
 ****Logistic Regression Model****

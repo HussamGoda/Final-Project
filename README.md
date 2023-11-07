@@ -9,7 +9,7 @@
 ![Image](https://github.com/HussamGoda/Final-Project/blob/main/Images/Approve.png)
 
 
-**Introduction and Overview:**
+***Introduction and Overview:***
 
 In this project, a dataset of US working visa status is considered. The dataset contains 25480 records and a total of 12 columns, summarized as follows.
 - Case id: unique ID for each application,
@@ -22,7 +22,7 @@ In this project, a dataset of US working visa status is considered. The dataset 
 - Region of Employment: US region where the company is located (categorical feature),
 - Prevailing Wage: salary on offer (numerical feature)
 - Unit of wage: yearly, weekly, monthly (categorical feature)
-- Full-Time Position: whether the position is full time or not (categorical feature)
+- Full-Time Position: whether the position is full-time or not (categorical feature)
 - Case status: whether the case is certified or denied (categorical target)
 
 The goal of this project is two-fold.

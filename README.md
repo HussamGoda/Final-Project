@@ -244,22 +244,13 @@ Once the user clicks "Predict Visa Status", the code will go through all runs pe
 
 **Conclusion**
 -
-Logistic Regression Modelling shows:   
-Accuracy of about 0.70,  
-Precision of 0.75 (for “Certified”) and 0.53 (for “Denied”)  
-Neural networks Modelling shows Accuracy of about 0.73 (single model) and 0.78-0.79 (cross validation)   
-Precision of about 0.78 (for “Certified”) and 0.57 (for “Denied”) – single model  
-Precision of about 0.82 (for “Certified”) and 0.65 for (“Denied) – cross validation model  
-All models perform better in predicting “Certified” status  
-Deploy Neural Network model using cross validation
-
-Logistic Regression Model:  
+*Logistic Regression Model:*
 Accuracy: 70%
 Precision: "Certified": 75%, "Denied": 53%  
 In contrast, for "Denied" cases, the precision was 53%, indicating that the model's performance was relatively weaker in correctly identifying denied cases.
   
 
-Neural Network Model:
+*Neural Network Model:*
 Accuracy: Single Model: 73%, Cross Validation Model: 78-79%
 Precision:
 Single Model:"Certified": 78%, "Denied": 57%

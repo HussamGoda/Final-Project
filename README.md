@@ -93,8 +93,11 @@ Tableau Link: https://public.tableau.com/app/profile/yoshie.hara/viz/Project4/St
 **Machine Learning Models**
 -
 In this part of the report, Machine Learning modeling is summarised. 
+
 Initially, Pair Plots were created to investigate relationships between features and understand the degree of linearity/no-linearity that may exist.
-The plot below shows a total of nine sub-plots, six of which are scatter plots. such plots show the relationship between two numerical features for each case status (orange circles for "Certified" status and blue circles for "Denied" status)  
+The plot below shows a total of 9 sub-plots, 6 of which are scatter plots. such plots show the relationship between two numerical features for each case status (orange circles for "Certified" status and blue circles for "Denied" status). Looking at the plots, one may conclude that non-linearity dictates relationships between the input features.
+
+The remaining plots (3 plots) show the distribution of each numerical feature for each visa status. The "prevailing wage" appears to be normally distributed (relatively speaking). The distributions of "no_of_employees" and "yr_of_estab" are skewed to the left and the right respectively.     
 
 ![image](https://github.com/HussamGoda/Final-Project/assets/135322159/97ae2386-68ac-41a5-b597-ccd4adc0a510)
 

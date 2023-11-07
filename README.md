@@ -8,6 +8,25 @@
 
 ![Image](https://github.com/HussamGoda/Final-Project/blob/main/Images/Approve.png)
 
+**Repo Files**
+
+CSV files
+- "EasyVisa.csv" : Original dataset
+- "easy_visa_cleaned_NoOutliers.csv": final CSV file for Machine Learning
+- "map.csv": final CSV file to be used in Tableau (contains approximate values for latitude and longitude for different regions in the US) 
+
+Jupyter Notebook Files:
+- "easy_visa_cleaning.ipynb": code used to investigate, clean, and analyze the dataset
+- "easy_visa_cleaned_NoOutliers(export_for_map).ipynp": code used to add latitude and longitude to the data to facilitate the use of map in Tableau
+- "easy_visa_logistic_regression.ipynb": code used for Machine learning (Logistic Regression)
+- "withStandardScale_200epchs.ipynb": Code for Machine Learning (Neural Network)
+
+files and folders for Deployment 
+- folder "SS_runs": contains files saved (using pickle) from the cross-validation runs.  
+- Folder “templates”: contains the file “index.html”
+- "Visa_xv_model.py": code for defining Python flask, performing calculations, and returning output to the front end.
+
+
 
 **Introduction and Overview:**
 -

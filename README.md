@@ -100,7 +100,7 @@ Pair plots to check the degree of linearity/no-linearity
 ****Logistic Regression Model****
 -
 
-Accuracy: 0.7074652777777778
+Accuracy: 0.707
 
   
               precision    recall  f1-score   support

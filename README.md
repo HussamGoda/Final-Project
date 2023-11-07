@@ -160,7 +160,8 @@ The model's accuracy is approximately 70.75%, meaning it correctly predicted the
 
 ****Neural Network - Single Model****
 -
-the dataset was split into two datasets, training and testing. Both datasets were standardized and transformed.
+
+The dataset was split into two datasets, training and testing. Both datasets were standardized and transformed.
 Following a number of trials the following neural network structure was used.
 - An input layer (24 neurons),
 - First hidden layer with 80 neurons
@@ -176,6 +177,7 @@ The model seems able to predict the case status "Certified" (presented by 1) bet
 
 ****Neural Network - Cross Validation Model****
 -
+
 Kfold (from sklearn) was used to apply cross-validation. Cross-validation allows the neural network to be trained using multiple different training sets, and be tested using different testing sets. This would allow to network to see different training sets with different collections. This would allow the network to learn more about the hidden features (or hidden themes) that may exist in the training sets. Cross-validation also increases the chances of preventing over-fitting
 
 A similar network architecture as the one explained before was used for the Cross-Validation model. Kfold was set to 10.
@@ -191,10 +193,19 @@ Classification Report for the run (out of the 10 runs) with the highest performa
 ![image](https://github.com/HussamGoda/Final-Project/assets/134576485/e0f4d3fb-9706-4a4c-b369-cddf07284f2d)
 
 
-It was decided to deploy the neural network model trained using Cross-validation
+It was decided to deploy the neural network model trained using Cross-validation.
 
 
 ****Neural Network - Cross Validation Model Deployment****
 -
+
+Python Flask and JavaScript were used to deploy the neural network model to a locale server (all files are given in the repo).
+Below is a screen capture of the final product.
+
+![image](https://github.com/HussamGoda/Final-Project/assets/134576485/28c4f3ab-eedb-4f30-a931-f4245313675a)
+
+The top 3 input boxes are reserved for the three numerical features (no_of_employees, yr_of_estab, prevailing_wage). Other categorical features are represented by dropdown lists. The user is required to input all three numerical values and select appropriate options from the dropdown list, before clicking "Predict Visa Status". Once the user selects all options from all dropdown lists, the code will perform the encoding to 0 and 1 based on the user selection.
+Once the user clicks "Predict Visa Status", the code will go through all runs performed in the Cross-validation model, average them, and then present a visa status output. 
+
 
 

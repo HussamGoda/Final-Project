@@ -244,20 +244,8 @@ Once the user clicks "Predict Visa Status", the code will go through all runs pe
 
 **Conclusion**
 -
-*Logistic Regression Model:*  
-Accuracy: 70%  
-Precision: "Certified": 75%, "Denied": 53%  
-In contrast, for "Denied" cases, the precision was 53%, indicating that the model's performance was relatively weaker in correctly identifying denied cases.
-  
-  
-*Neural Network Model:*  
-Accuracy: Single Model: 73%, Cross Validation Model: 78-79%  
-Precision:  
-Single Model:"Certified": 78%, "Denied": 57%  
-Cross Validation Model: "Certified": 82%, "Denied": 65%  
-The neural network model outperformed the logistic regression model with an accuracy of 73% for a single model and 78-79% for the cross-validation model.  
-In the cross-validation model, precision for "Certified" cases improved to 82%, and precision for "Denied" cases also increased to 65%, indicating better overall performance.
-  
-All models performed better in predicting "Certified" status, with higher accuracy and precision.
-The neural network model, especially the cross-validation model, showed the best performance with an accuracy of 78-79% and improved precision for both "Certified" and "Denied" cases.
-Based on these results, we have integrated the cross-validated neural network model into our webpage. This enables users to effortlessly forecast the outcome of their visa application.
+After comparing both models as above, the neural network emerged as the preferred base model. It significantly outperformed the logistic regression model, boasting an impressive accuracy of 73% for a single model and a remarkable 78-79% for the cross-validation model. The cross-validation model further demonstrated enhanced precision, reaching 82% for "Certified" cases and 65% for "Denied" cases, signifying a substantial overall performance improvement.
+
+Notably, all models excelled in predicting the "Certified" status, showcasing elevated accuracy and precision. The neural network, especially the cross-validation variant, exhibited the most exceptional performance with its outstanding 78-79% accuracy and superior precision for both "Certified" and "Denied" cases.
+
+As a result of these compelling findings, we have seamlessly integrated the cross-validated neural network model into our webpage. This integration empowers users to effortlessly predict the outcome of their visa applications with confidence.

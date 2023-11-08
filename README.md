@@ -216,11 +216,12 @@ Before starting the Cross-validation modeling, it might be a good idea to have a
 Some conclusions:
 - Numerical features appear to be, relatively speaking, more important to the model. In terms of ratio, they also seem to have equal contributions to the model (6%, 5.2%, and 5.7%)
 - The variation among categorical features split into two features seems to be close to each other in terms of importance ratio:
-    - Full time position – both features (3.8%)
-    - Require Job training – both features (3.8%)
-    - Require Experience – both features (4.23%)
-Categorical features split into more than two features carry more variation  
-![image](https://github.com/HussamGoda/Final-Project/assets/134576485/3a498e2c-eae4-4386-bb3f-b773a54e6720)
+    - Full-time position – the relative importance of both features stands at 3.8% each
+    - Require Job training – the relative importance of both features stands at 3.8% each
+    - Require Experience – the relative importance of both features stands at 4.23% each
+- each categorical feature split into more than two features shows more relative importance variation
+
+It should be noted, however, that the relative importance presented above is model-specific. In other words, if the model is run again, the relative importance ratios may change. The order of features' importance should not change much. 
 
 
 

@@ -27,7 +27,7 @@ Jupyter Notebook Files:
 files and folders for Deployment 
 - folder "SS_runs": contains files saved (using pickle) from the cross-validation runs.  
 - Folder “templates”: contains the file “index.html”
-- "Visa_xv_model.py": code for defining Python flask, performing calculations, and returning output to the front end.
+- "Visa_xv_model.py": code for defining Python flask, performing calculations, and returning output to the front end. Please run this file if you require to access the web page.
 
 Final Presentation
 - "Final_Presentation_Group8_Machine_Learning.pptx": final presentation slides.
